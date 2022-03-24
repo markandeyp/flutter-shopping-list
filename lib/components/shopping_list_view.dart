@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shoppinglist/components/additem.dart';
-import 'package:shoppinglist/components/itemlist.dart';
-import 'package:shoppinglist/schemas/item.dart';
+import './add_item_view.dart';
+import './item_list_view.dart';
+import '../schemas/item.dart';
 
 class ShoppingListView extends StatelessWidget {
   final Function(String) onAdd;

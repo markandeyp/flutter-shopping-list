@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:realm/realm.dart';
-import 'package:shoppinglist/components/shoppinglist.dart';
-import 'package:shoppinglist/schemas/item.dart';
-import 'package:shoppinglist/services/item.service.dart';
+import './components/shopping_list_view.dart';
+import './schemas/item.dart';
+import './services/item_service.dart';
 
 void main() {
   final ItemService service = ItemService();

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shoppinglist/schemas/item.dart';
+import '../schemas/item.dart';
 
 class ItemListView extends StatelessWidget {
   final List<Item> items;

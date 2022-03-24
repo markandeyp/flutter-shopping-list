@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:realm/realm.dart';
-import 'package:shoppinglist/schemas/item.dart';
+import '../schemas/item.dart';
 
 class ItemService {
   final Configuration _config =
